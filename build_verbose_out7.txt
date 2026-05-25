@@ -1,0 +1,25 @@
+npm verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+npm info using npm@11.11.0
+npm info using node@v24.14.1
+npm verbose title npm run build
+npm verbose argv "run" "build" "--loglevel" "silent" "--loglevel" "verbose"
+npm verbose logfile logs-max:10 dir:C:\Users\gours\AppData\Local\npm-cache\_logs\2026-05-22T08_42_53_791Z-
+npm verbose logfile C:\Users\gours\AppData\Local\npm-cache\_logs\2026-05-22T08_42_53_791Z-debug-0.log
+
+> agency-frontend@0.1.0 build
+> react-scripts build
+
+(node:17036) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Creating an optimized production build...
+Failed to compile.
+
+Module not found: Error: Can't resolve '@src/context/Authcontext' in 'C:\Users\gours\OneDrive\Desktop\agency-frontend\src'
+
+
+npm verbose cwd C:\Users\gours\OneDrive\Desktop\agency-frontend
+npm verbose os Windows_NT 10.0.26100
+npm verbose node v24.14.1
+npm verbose npm  v11.11.0
+npm verbose exit 1
+npm verbose code 1

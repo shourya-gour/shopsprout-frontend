@@ -72,7 +72,7 @@ const Agreement = () => {
     try {
       const canvas = canvasRef.current;
       const signatureData = canvas.toDataURL();
-      await axios.post('http://localhost:5000/api/agreements', {
+      await axios.post('/api/agreements', {
         client_name: form.clientName,
         client_email: form.clientEmail,
         company: form.company,

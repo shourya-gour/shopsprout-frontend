@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { login } from '../services/api';
 import { useAuth } from '../context/AuthContext';
+// re-exported for case-sensitive builds
 
 const Login = () => {
   const [form, setForm] = useState({ email: '', password: '' });
